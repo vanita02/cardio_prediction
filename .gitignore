@@ -1,0 +1,26 @@
+# # Virtual environment
+Scripts/
+Lib/
+Include/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML / data files
+*.h5
+*.pt
+*.pkl
+*.db
+*.sqlite
+*.csv
+*.parquet
+*.joblib
