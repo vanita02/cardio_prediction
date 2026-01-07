@@ -86,7 +86,8 @@ st.markdown("""
 
 # ================= LOAD PIPELINE =================
 try:
-    pipeline = joblib.load("model.pkl")
+    # pipeline = joblib.load("model.pkl")
+    pipeline = joblib.load("gradient_boosting_model.pkl")
 except FileNotFoundError:
     st.error("⚠️ Model file 'model.pkl' not found. Please ensure it's in the same directory.")
     st.stop()
