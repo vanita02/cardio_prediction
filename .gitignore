@@ -18,7 +18,7 @@ Thumbs.db
 # ML / data files
 *.h5
 *.pt
-*.pkl
+# *.pkl
 *.db
 *.sqlite
 *.csv
